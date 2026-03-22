@@ -1,0 +1,78 @@
+# ============================================================
+# ThriveNext SEO — robots.txt
+# Technical SEO: Crawl Budget Management & Bot Directives
+# Last updated: 2026-03-16
+# Reference: https://developers.google.com/search/docs/crawling-indexing/robots/intro
+# ============================================================
+
+# ── Priority bots: full access, no crawl-delay ─────────────
+User-agent: Googlebot
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /*?*sort=
+Disallow: /*?*filter=
+Disallow: /*?*utm_
+Disallow: /*?*ref=
+Disallow: /*?*session=
+Disallow: /_next/static/
+Disallow: /cdn-cgi/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /*?*sort=
+Disallow: /*?*filter=
+Disallow: /*?*utm_
+Crawl-delay: 5
+
+# ── Social media crawlers: allow for Open Graph / cards ─────
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+# ── Googlebot-Image: allow all images ───────────────────────
+User-agent: Googlebot-Image
+Allow: /assets/
+Allow: /public/
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.webp$
+Allow: /*.svg$
+
+# ── AI / LLM scrapers: allow for Generative Engine visibility
+User-agent: GPTBot
+Allow: /
+Disallow: /admin/
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+# ── All other bots: basic access, crawl-delay to prevent overload
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /*?*sort=
+Disallow: /*?*filter=
+Disallow: /*?*utm_
+Crawl-delay: 10
+
+# ── Sitemap declarations ─────────────────────────────────────
+Sitemap: https://thrivenextseo.com/sitemap.xml
