@@ -283,7 +283,7 @@ Google's quality evaluator guidelines significantly weight E-E-A-T, especially f
 For businesses serving multiple markets (India, UAE, UK, USA, Canada, Australia), hreflang prevents cannibalization between country variants.
 
 **Hreflang implementation patterns**:
-- Add &lt;link rel="alternate" hreflang="en-IN" href="https://thrivenextseo.com/"&gt; for each locale
+- Add &lt;link rel="alternate" hreflang="en-IN" href="https://thrivenextseo.in/"&gt; for each locale
 - Add hreflang="x-default" pointing to the generic fallback page
 - Implement reciprocally — every alternate URL must reference all others
 - Verify with Google Search Console's International Targeting report

@@ -1,0 +1,37 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "thrivenextseo.com"
+        }
+      ],
+      "destination": "https://thrivenextseo.in/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.thrivenextseo.com"
+        }
+      ],
+      "destination": "https://thrivenextseo.in/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.thrivenextseo.in"
+        }
+      ],
+      "destination": "https://thrivenextseo.in/$1",
+      "permanent": true
+    }
+  ]
+}

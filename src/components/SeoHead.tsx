@@ -15,7 +15,7 @@ interface SeoHeadProps {
   ogImage?: string;
 }
 
-const SITE_URL = "https://thrivenextseo.com";
+const SITE_URL = "https://thrivenextseo.in";
 const SITE_NAME = "ThriveNext SEO Agency";
 const DEFAULT_OG_IMAGE = `${SITE_URL}/og-image.png`;
 

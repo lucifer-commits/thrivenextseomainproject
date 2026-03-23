@@ -75,4 +75,4 @@ Disallow: /*?*utm_
 Crawl-delay: 10
 
 # ── Sitemap declarations ─────────────────────────────────────
-Sitemap: https://thrivenextseo.com/sitemap.xml
+Sitemap: https://thrivenextseo.in/sitemap.xml
