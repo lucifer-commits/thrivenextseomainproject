@@ -21,17 +21,6 @@
       ],
       "destination": "https://thrivenextseo.in/$1",
       "permanent": true
-    },
-    {
-      "source": "/(.*)",
-      "has": [
-        {
-          "type": "host",
-          "value": "www.thrivenextseo.in"
-        }
-      ],
-      "destination": "https://thrivenextseo.in/$1",
-      "permanent": true
     }
   ]
 }
